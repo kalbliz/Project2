@@ -245,9 +245,40 @@
                             <div class="container-fluid">
                                 
                           <div class="card shadow mb-4">
+                              
                               <div class="card-header py-3">
-                                  <h6 class="m-0 font-weight-bold text-primary">DataTables Example</h6>
+                                  <h6 class="m-0 font-weight-bold text-primary">Sales Report</h6>
                               </div>
+                               <div class="col-md-2 floatl">
+                                   <button type="submit" class="btn btn-primary" data-toggle="modal"
+                                       data-target="#addStaff" style="margin-top: 2%;">ADD</button>
+                               </div>
+                               <!--modal for add-->
+                               <div class="modal fade" id="addStaff" tabindex="-1" role="dialog"
+                                   aria-labelledby="addStaff" aria-hidden="true">
+                                   <div class="modal-dialog" role="document">
+                                       <div class="modal-content">
+                                           <div class="modal-header">
+                                               <h5>Input New Staff Details</h5>
+                                           </div>
+                                           <div class="modal-body">
+                                               <form class="form-control1">
+
+                                                   <input type="date" placeholder="Date" class=" formInput">
+                                                   <input type="text" placeholder="Bus ID" class=" formInput">
+                                                   <input type="text" placeholder="Driver ID" class=" formInput">
+                                                   <input type="text" placeholder="Product Out" class=" formInput">
+                                                   <input type="text" placeholder="Product In" class=" formInput">
+                                                   <input type="text" placeholder="Cash In" class=" formInput">
+                                                   <input type="text" placeholder="Cash Out" class=" formInput">
+                                                 
+                                                   <button class=" btn-success butt ">Submit</button>
+                                                   <button class=" btn-danger butt " data-dismiss="modal">Close</button>
+                                               </form>
+                                           </div>
+                                       </div>
+                                   </div>
+                               </div>
                               <div class="card-body">
                                   <div class="table-responsive">
                                       <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
