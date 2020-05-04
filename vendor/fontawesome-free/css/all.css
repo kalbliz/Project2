@@ -678,13 +678,13 @@ readers do not read off random characters that represent icons */
 .fa-buromobelexperte:before {
   content: "\f37f"; }
 
-.fa-bus:before {
+.fa-:before {
   content: "\f207"; }
 
-.fa-bus-alt:before {
+.fa--alt:before {
   content: "\f55e"; }
 
-.fa-business-time:before {
+.fa-iness-time:before {
   content: "\f64a"; }
 
 .fa-buysellads:before {

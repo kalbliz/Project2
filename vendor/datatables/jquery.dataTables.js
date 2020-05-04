@@ -11667,7 +11667,7 @@
 			 *    $(document).ready( function() {
 			 *      $('#example').dataTable( {
 			 *        "language": {
-			 *          "processing": "DataTables is currently busy"
+			 *          "processing": "DataTables is currently y"
 			 *        }
 			 *      } );
 			 *    } );

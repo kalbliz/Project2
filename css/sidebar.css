@@ -46,3 +46,77 @@ display: inline-block;
     overflow-x: auto;
 
 }
+.modal-body>img{
+    border-radius: 30%;
+    max-width: 40%;
+    padding: 5%;
+    margin-left: 20%;
+}
+.floatl{
+    float: right;
+}
+.formInput{
+    display: block;
+    margin-top: 2%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6e707e;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #d1d3e2;
+    border-radius: .35rem;
+    transition: border-color .15s ease-in-out,
+    box-shadow .15s ease-in-out;
+    }
+    .form-control1{
+            display: block;
+            width: max-content;
+            height: auto;
+            padding: .375rem .75rem;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #6e707e;
+            background-color: #fff;
+            background-clip: padding-box;
+            border:  #d1d3e2;
+            border-radius: .35rem;
+            transition: border-color .15s ease-in-out,
+            box-shadow .15s ease-in-out;
+            margin: 0 auto;
+    }
+    .form-control1>.but{
+          display: block;
+          margin-top: 2%;
+          height: calc(1.5em + .75rem + 2px);
+          padding: .375rem .75rem;
+          font-size: 1rem;
+          font-weight: 400;
+          line-height: 1.5;
+          color: #6e707e;
+          background-clip: padding-box;
+          border:  #d1d3e2;
+          border-radius: .35rem;
+          transition: border-color .15s ease-in-out,
+    }
+    .form-control1>.butt{
+           display: inline-block;
+           margin-top: 2%;
+           margin-left: 2%;
+           height: calc(1.5em + .75rem + 2px);
+           padding: .375rem .75rem;
+           font-size: 1rem;
+           font-weight: 400;
+           line-height: 1.5;
+           color: #6e707e;
+           background-color: #fff;
+           background-clip: padding-box;
+           border: 1px solid #d1d3e2;
+           border-radius: .35rem;
+           transition: border-color .15s ease-in-out,
+           box-shadow .15s ease-in-out;
+    }
+   
