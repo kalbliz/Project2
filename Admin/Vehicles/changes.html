@@ -226,7 +226,33 @@
 
         <!-- Begin Page Content -->
         <div class="container-fluid">
+<div class="container-fluid">
+  <div class="col-md-2 floatl">
+    <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#addStaff">ADD</button>
+  </div>
+  <!--modal for add-->
+  <div class="modal fade" id="addStaff" tabindex="-1" role="dialog" aria-labelledby="addStaff" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5>Input New Vehicle Details</h5>
+        </div>
+        <div class="modal-body">
+          <form class="form-control1">
 
+            <input type="text" placeholder="Vehicle ID" class=" formInput">
+            <input type="text" placeholder="Plate Number" class=" formInput">
+            <input type="text" placeholder="Vehicle Reg" class=" formInput">
+            <input type="text" placeholder="Model" class=" formInput">
+            <input type="text" placeholder="Status" class=" formInput">
+            <input type="text" placeholder="Maximum Capacity" class=" formInput">
+            <button class=" btn-success butt ">Submit</button>
+            <button class=" btn-danger butt " data-dismiss="modal">Close</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
           <!-- Page Heading -->
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
             <h1 class="h3 mb-0 text-gray-800">All Vehicle Details</h1>
