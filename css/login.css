@@ -1,0 +1,115 @@
+@media (min-width: 568px) {
+    .container {
+        width: 550px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+body{
+    margin: 0;
+    padding: 0;
+    visibility: visible;
+    font-family: karla;
+    box-sizing: border-box;
+    /* background-image: url(../img/Untitled-2@1.25x.png); */
+}
+.container{
+    width: 100%;
+    height: auto;
+    
+}
+.loginbox {
+    width: 320px;
+    height: 420px;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    border-radius: 5%;
+    padding: 2%;
+      background: rgb(2, 0, 36);
+      background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(1, 13, 97, 1) 22%, rgba(123, 190, 49, 1) 99%);
+
+    
+}
+ 
+h1{
+    margin-top: 10%;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+
+}
+.loginbox>form>p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.loginbox>form>input[type="text"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    width: 100%;
+    margin-bottom: 20px;
+
+
+}
+.loginbox>form>input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+     width: 100%;
+     margin-bottom: 20px;
+}
+.loginbox>form>input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #7bbe31;
+    font-size: 24px;
+    border-radius: 20px;
+     width: 50%;
+     margin-bottom: 20px;
+     display: block;
+     margin: 0 auto;
+     color: #fff;
+
+}
+.loginbox>form>input[type="submit"]:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: #fff;
+
+}
+.loginbox>form>a{
+    width: 50%;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgray;
+    margin-left: 25%;
+    top: 10%;
+}
+.loginbox>form>a:hover{
+        cursor: pointer;
+        background: #ffc107;
+        color: #000;
+}
